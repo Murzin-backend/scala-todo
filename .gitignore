@@ -2,9 +2,13 @@
 bin/
 /db
 .eclipse
+.idea
 /lib/
 /logs/
 /modules
+/test
+/node_modules
+/frontend
 /project/project
 /project/target
 /target

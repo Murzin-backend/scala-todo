@@ -1,0 +1,6 @@
+GET     /                           controllers.ApplicationController.index
+POST    /add                        controllers.ApplicationController.addTask()
+POST    /delete                     controllers.ApplicationController.deleteTask()
+GET     /complete                   controllers.ApplicationController.completeTask()
+
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
